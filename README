@@ -1,0 +1,12 @@
+http-fetch
+==========
+
+A simple module for get and post requests in Juice.
+
+Usage is half-documented (hell, the thing is only half written) inline, but
+here's an example:
+
+    require( "http-fetch" ).getAsJSON( "http://foo/bar.json" );
+
+To use it (for now) you'll need the combined xml_arabica and curl branches of
+flusspferd. You can grab it at the xml_arabica branch on my fork.
